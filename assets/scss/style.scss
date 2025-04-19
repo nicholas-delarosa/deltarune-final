@@ -1,9 +1,0 @@
-@use 'fuentes';
-@use 'body';
-@use 'screens' as sc; //sc = Screens
-@use 'images';
-@use 'texto';
-
-html {
-    scroll-behavior: smooth;
-}
