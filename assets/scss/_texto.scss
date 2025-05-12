@@ -2,14 +2,31 @@
 @use 'mixins' as m;
 
 body {
+    main {
+        margin-top: 55px
+    }
+    main.main-tracks {
+        margin-top: 0;
+    }
+    header.header-position {
+        margin-top: 56px
+    }
     section {
         audio {
             @include m.center-block;
+            margin-top: 40px;
         }
         a {
             text-decoration: none;
             color: yellow;
         }
+    }
+    h2 {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    h2.places {
+        margin-bottom: 15px;
     }
     p {
         text-align: justify;
@@ -23,6 +40,12 @@ body {
         @include sc.small-screens {
             display: none;
         }
+    }
+    p.br {
+        margin-top: 40px;
+    }
+    p.br2 {
+        margin-top: 80px;
     }
     p.contacto {
         font-size: 30px;

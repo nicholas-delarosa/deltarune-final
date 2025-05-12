@@ -504,7 +504,7 @@ body {
   background-color: black;
   color: white;
   font-family: "UT/DR Text";
-  font-size: 14px;
+  font-size: 16px;
 }
 
 @media (min-width: 1024px) {
@@ -975,14 +975,31 @@ div.starwalker img {
   height: 20px;
 }
 
+body main {
+  margin-top: 55px;
+}
+body main.main-tracks {
+  margin-top: 0;
+}
+body header.header-position {
+  margin-top: 56px;
+}
 body section audio {
   text-align: center;
   display: block;
   margin: 0 auto;
+  margin-top: 40px;
 }
 body section a {
   text-decoration: none;
   color: yellow;
+}
+body h2 {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+body h2.places {
+  margin-bottom: 15px;
 }
 body p {
   text-align: justify;
@@ -998,6 +1015,12 @@ body p.textdog {
   body p.textdog {
     display: none;
   }
+}
+body p.br {
+  margin-top: 40px;
+}
+body p.br2 {
+  margin-top: 80px;
 }
 body p.contacto {
   font-size: 30px;
